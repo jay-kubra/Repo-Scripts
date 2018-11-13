@@ -267,7 +267,7 @@ do
                          REPO_ARRAY[repo_tstsync]=${cnt6test_diff}
                          REPO_ARRAY[repo_prdsync]=${cnt6prod_diff}
                        fi
-                          if [[ "${line}" != @("epel"|"ius") ]]; then
+                          if [[ "${line}" != @("epel"|"ius"|"base") ]]; then
                             REPO_ARRAY[repo_tstsync]="null"
                             REPO_ARRAY[repo_prdsync]="null"
                           fi
