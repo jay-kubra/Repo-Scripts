@@ -8,7 +8,7 @@
 #
 # To run in debug mode: "DEBUG=1 ./repoinfo.sh"
 ################################################################################
-#APP_SLACK_DEBUG (optional)
+
 ################################################################################
 
 # declare a new array to keep things in
